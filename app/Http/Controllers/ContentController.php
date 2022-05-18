@@ -22,6 +22,7 @@ class ContentController extends Controller
             'url' => $request->url,
         ]);
 
+        return back();
 
 
     }
